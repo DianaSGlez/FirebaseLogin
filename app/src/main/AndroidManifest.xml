@@ -13,15 +13,22 @@
         android:theme="@style/Theme.Proyecto_comida"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:theme="@style/Base.Theme.Proyecto_comida"
-            android:exported="true">
+            android:name=".SingUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SingingActivity"
+            android:exported="true"
+            android:theme="@style/Base.Theme.Proyecto_comida">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"/>
+
     </application>
 
 </manifest>
